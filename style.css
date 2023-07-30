@@ -2,7 +2,8 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-body img {
+
+.imgbox img {
   width: 100%;
 }
 
@@ -10,11 +11,6 @@ section {
   padding: 40px 0;
 }
 
-@media (max-width: 992px) {
-  img {
-    border-radius: 20px;
-  }
-}
 #carefor {
   padding: 50px 0;
 }
@@ -88,35 +84,35 @@ section {
 }
 
 #aboutus .textbox {
-  padding: 0 100px;
+  padding: 0 90px;
 }
 #aboutus .textbox h1 {
   font-weight: 700;
-  font-size: 35px;
+  font-size: 30px;
 }
 #aboutus .textbox h3, #aboutus .textbox p {
   color: #a8a8a8;
   font-size: 20px;
   font-weight: 100;
-  margin: 20px 0 0 0;
+  margin-top: 20px;
   line-height: 1.6;
 }
 #aboutus .textbox p {
-  color: #949494;
+  color: #888484;
   font-size: 18px;
   line-height: 1.4;
 }
 #aboutus .textbox li {
   display: flex;
-  padding: 20px 0 0 0;
+  padding-top: 20px;
 }
 #aboutus .textbox .icon {
-  color: #5e5656;
+  color: #645f5f;
   padding: 0 15px 0 0;
 }
 #aboutus .textbox h4 {
   font-size: 18px;
-  color: #949494;
+  color: #918a8a;
 }
 #aboutus .textbox .imgbox {
   width: 450px;
@@ -125,10 +121,10 @@ section {
   #aboutus .textbox {
     padding: 6px;
   }
-  #aboutus h4 {
+  #aboutus .textbox h4 {
     margin: 10px 0;
   }
-  #aboutus li {
+  #aboutus .textbox li {
     display: flex;
     align-items: center;
   }
@@ -140,7 +136,7 @@ section {
   margin: 20px;
 }
 #ourtrainers h3, #ourtrainers h4 {
-  color: #a8a8a8;
+  color: #8b8989;
   font-size: 20px;
   font-weight: 300;
   padding: 10px 0 20px;
@@ -299,19 +295,19 @@ section {
   font-size: 22px;
 }
 #doggerblog .textbox h4 {
-  color: #a7a7a7;
+  color: #979595;
   font-size: 18px;
 }
 #doggerblog .textbox p {
   font-size: 18px;
-  color: #8f8686;
+  color: #837878;
 }
 #doggerblog .textbox p, #doggerblog .textbox h4 {
   margin: 20px 0 0;
 }
 #doggerblog .box {
-  margin: 25px 0 0 0;
-  height: 40vh;
+  margin-top: 20px;
+  height: 35vh;
 }
 #doggerblog .wid {
   width: 580px;
@@ -334,7 +330,7 @@ section {
 }
 #ourservices .textbox h2 {
   font-size: 25px;
-  color: #757575;
+  color: #636161;
   margin: 20px 0 0;
 }
 #ourservices .textbox h3 {
