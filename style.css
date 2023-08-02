@@ -276,6 +276,11 @@ section {
     padding: 0;
   }
 }
+@media screen and (max-width: 768px) {
+  #questions .textbox {
+    padding: 15px 0;
+  }
+}
 
 #doggerblog .box {
   display: flex;
